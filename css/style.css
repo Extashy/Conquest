@@ -1,0 +1,548 @@
+.Footer .Footer__wrapper .Footer__info .Info__name p, .Section .Section__news .News__subscribe p:first-of-type, .Section .Section__quality .Quality__description p:first-of-type, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product button, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__name, .Section .Section__most-popular .Most-popular__wrapper .Most-popular__title p, .Section .Section__body .Section__description .Description__wrapper p:first-of-type, .Section .Section__body .Section__description .Description__title p, .Header .Header__name p {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+.Section .Section__body .Section__description .Description__wrapper p:last-of-type {
+  font-family: "Roboto-Light";
+}
+
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__price, .Section .Section__body .Section__showcase .Section__size p, .Section .Section__body .Section__showcase .Section__price p {
+  font-family: "Prata-Regular";
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FDFDFB;
+  height: 85px;
+}
+.Header .Header__name {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.Header .Header__name p {
+  font-size: 12px;
+  color: #555248;
+}
+.Header .Header__links {
+  display: flex;
+  gap: 4vh;
+  margin: auto;
+}
+.Header .Header__links a {
+  font-size: 14px;
+  color: #555248;
+  text-decoration: none;
+}
+.Header .Header__icons {
+  display: flex;
+  gap: 1.5vh;
+  margin: auto;
+}
+
+.Footer .Footer__wrapper .Footer__info .Info__name p, .Section .Section__news .News__subscribe p:first-of-type, .Section .Section__quality .Quality__description p:first-of-type, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product button, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__name, .Section .Section__most-popular .Most-popular__wrapper .Most-popular__title p, .Section .Section__body .Section__description .Description__wrapper p:first-of-type, .Section .Section__body .Section__description .Description__title p, .Header .Header__name p {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+.Section .Section__body .Section__description .Description__wrapper p:last-of-type {
+  font-family: "Roboto-Light";
+}
+
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__price, .Section .Section__body .Section__showcase .Section__size p, .Section .Section__body .Section__showcase .Section__price p {
+  font-family: "Prata-Regular";
+}
+
+@media only screen and (min-device-width: 208px) and (max-device-width: 539px) {
+  html {
+    height: 100%;
+  }
+  html body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  html body .Section {
+    height: 100%;
+  }
+  html body .Section .Section__body {
+    height: 100%;
+  }
+  html body .Section .Section__most-popular {
+    padding: 50px;
+  }
+  html body .Section .Section__quality {
+    margin: 0;
+    height: 100%;
+  }
+  html body .Section .Section__news {
+    margin: 0;
+    padding: 0 50px;
+    height: 100%;
+  }
+}
+@media only screen and (min-device-width: 541px) and (max-device-width: 648px) {
+  html {
+    height: 100%;
+  }
+  html body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  html body .Section {
+    height: 100%;
+  }
+  html body .Section .Section__body {
+    height: 100%;
+  }
+  html body .Section .Section__most-popular {
+    padding: 50px;
+  }
+  html body .Section .Section__quality {
+    margin: 0;
+    height: 100%;
+  }
+  html body .Section .Section__news {
+    margin: 0;
+    padding: 0 50px;
+    height: 100%;
+  }
+}
+.Section {
+  display: flex;
+  flex-direction: column;
+}
+.Section .Section__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDFDFB;
+}
+.Section .Section__body .Section__image {
+  display: flex;
+  align-items: center;
+}
+.Section .Section__body .Section__image img {
+  width: 100%;
+}
+.Section .Section__body .Section__description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.Section .Section__body .Section__description .Description__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+.Section .Section__body .Section__description .Description__title img {
+  width: 50px;
+  height: 2px;
+}
+.Section .Section__body .Section__description .Description__title p {
+  font-size: 2.5em;
+  color: #1B1A17;
+  margin: 0;
+}
+.Section .Section__body .Section__description .Description__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+.Section .Section__body .Section__description .Description__wrapper .Description__indent {
+  min-width: 50px;
+  width: 50px;
+  max-width: 50px;
+}
+.Section .Section__body .Section__description .Description__wrapper .Description__text {
+  display: flex;
+  flex-direction: column;
+}
+.Section .Section__body .Section__description .Description__wrapper p {
+  margin: 0;
+}
+.Section .Section__body .Section__description .Description__wrapper p:first-of-type {
+  font-size: 2em;
+  color: #1B1A17;
+  margin-top: 16px;
+}
+.Section .Section__body .Section__description .Description__wrapper p:last-of-type {
+  font-size: 14px;
+  color: #1B1A17;
+  margin-top: 39px;
+}
+.Section .Section__body .Section__description .Description__wrapper button {
+  width: 205px;
+  height: 64px;
+  font-size: 12px;
+  background-color: #444240;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  margin-top: 64px;
+  border: none;
+  cursor: pointer;
+}
+.Section .Section__body .Section__showcase {
+  display: flex;
+  padding: 0 50px 0 50px;
+}
+.Section .Section__body .Section__showcase img {
+  width: 100%;
+}
+.Section .Section__body .Section__showcase .Section__price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+.Section .Section__body .Section__showcase .Section__price img {
+  width: 50px;
+  height: 2px;
+}
+.Section .Section__body .Section__showcase .Section__price p {
+  font-size: 16px;
+  color: #1B1A17;
+  min-width: 72px;
+}
+.Section .Section__body .Section__showcase .Section__size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+.Section .Section__body .Section__showcase .Section__size img {
+  width: 50px;
+  height: 2px;
+}
+.Section .Section__body .Section__showcase .Section__size p {
+  font-size: 16px;
+  color: #1B1A17;
+}
+.Section .Section__most-popular {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 79px 50px 125px 50px;
+}
+.Section .Section__most-popular .Most-popular__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Section .Section__most-popular .Most-popular__wrapper div:first-of-type {
+  margin: auto;
+}
+.Section .Section__most-popular .Most-popular__wrapper .Most-popular__title {
+  font-size: 32px;
+}
+.Section .Section__most-popular .Most-popular__wrapper .Most-popular__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10%;
+}
+.Section .Section__most-popular .Most-popular__wrapper .Most-popular__button button {
+  border: none;
+  background: none;
+  margin-bottom: 11px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444240;
+  cursor: pointer;
+}
+.Section .Section__most-popular .Most-popular__wrapper .Most-popular__button img {
+  max-width: 101px;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  margin: auto;
+  margin-top: 25px;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product {
+  display: flex;
+  flex-direction: column;
+  margin-left: 94px;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__image {
+  width: 100%;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product:first-of-type {
+  margin-left: 0;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__name {
+  font-size: 14px;
+  color: #1B1A17;
+  font-weight: 700;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__price {
+  font-size: 12px;
+  color: #1B1A17;
+  margin-top: 10px;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #1B1A17;
+  cursor: pointer;
+}
+.Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__details-button {
+  display: flex;
+  align-items: center;
+}
+.Section .Section__quality {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FDFDFB;
+}
+.Section .Section__quality img {
+  width: 100%;
+}
+.Section .Section__quality .Quality__description {
+  margin-left: 69px;
+}
+.Section .Section__quality .Quality__description p:first-of-type {
+  font-size: 32px;
+  color: #1B1A17;
+}
+.Section .Section__quality .Quality__description p:last-of-type {
+  font-size: 16px;
+  color: #1B1A17;
+  line-height: 150%;
+}
+.Section .Section__quality .Quality__description button {
+  width: 205px;
+  height: 64px;
+  font-size: 12px;
+  background-color: #D4B098;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  margin-top: 45px;
+  border: none;
+  cursor: pointer;
+}
+.Section .Section__news {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  padding: 81px 100px 90px 100px;
+}
+.Section .Section__news .News__subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 471px;
+  margin-right: 71px;
+}
+.Section .Section__news .News__subscribe div:last-of-type {
+  justify-content: flex-end;
+}
+.Section .Section__news .News__subscribe p:first-of-type {
+  font-size: 32px;
+  color: #1B1A17;
+  margin: 0;
+}
+.Section .Section__news .News__subscribe p:last-of-type {
+  font-size: 16px;
+  color: #444240;
+  margin: 40px 0 0 0;
+}
+.Section .Section__news .News__subscribe .Subscribe__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5vh;
+  margin-top: 15%;
+}
+.Section .Section__news .News__products {
+  display: flex;
+  flex-direction: row;
+}
+.Section .Section__news .News__products img {
+  width: 100%;
+}
+.Section .Section__news .News__products .Products__first-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.Section .Section__news .News__products .Products__first-wrapper img:last-of-type {
+  margin-top: 10px;
+}
+.Section .Section__news .News__products .Products__second-wrapper {
+  display: flex;
+  align-items: center;
+}
+.Section .Section__news .News__products .Products__second-wrapper img {
+  height: 100%;
+}
+
+.Footer .Footer__wrapper .Footer__info .Info__name p, .Header .Header__name p, .Section .Section__body .Section__description .Description__title p, .Section .Section__body .Section__description .Description__wrapper p:first-of-type, .Section .Section__most-popular .Most-popular__wrapper .Most-popular__title p, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__name, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product button, .Section .Section__quality .Quality__description p:first-of-type, .Section .Section__news .News__subscribe p:first-of-type {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+.Section .Section__body .Section__description .Description__wrapper p:last-of-type {
+  font-family: "Roboto-Light";
+}
+
+.Section .Section__body .Section__showcase .Section__price p, .Section .Section__body .Section__showcase .Section__size p, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__price {
+  font-family: "Prata-Regular";
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  background-color: #444240;
+  height: 275px;
+}
+.Footer .Footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.Footer .Footer__wrapper div:first-of-type {
+  margin-top: 0;
+}
+.Footer .Footer__wrapper p {
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+}
+.Footer .Footer__wrapper a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.Footer .Footer__wrapper .Footer__info {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-right: 100px;
+}
+.Footer .Footer__wrapper .Footer__info a:first-of-type {
+  margin-top: 23px;
+}
+.Footer .Footer__wrapper .Footer__info a:last-of-type {
+  margin-top: 15px;
+}
+.Footer .Footer__wrapper .Footer__info .Info__name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Footer .Footer__wrapper .Footer__info .Info__name img {
+  max-width: 25px;
+  max-height: 25px;
+}
+.Footer .Footer__wrapper .Footer__info .Info__name p {
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin: 0;
+}
+.Footer .Footer__wrapper .Footer__about {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-right: 100px;
+}
+.Footer .Footer__wrapper .Footer__about p:first-of-type {
+  margin: 0;
+}
+.Footer .Footer__wrapper .Footer__about p:nth-of-type(2) {
+  margin: 33px 0 0 0;
+}
+.Footer .Footer__wrapper .Footer__about p {
+  margin: 15px 0 0 0;
+}
+.Footer .Footer__wrapper .Footer__customers {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-right: 100px;
+}
+.Footer .Footer__wrapper .Footer__customers p:first-of-type {
+  margin: 0;
+}
+.Footer .Footer__wrapper .Footer__customers p:nth-of-type(2) {
+  margin: 33px 0 0 0;
+}
+.Footer .Footer__wrapper .Footer__customers p {
+  margin: 15px 0 0 0;
+}
+.Footer .Footer__wrapper .Footer__delivery {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.Footer .Footer__wrapper .Footer__delivery p:first-of-type {
+  margin: 0;
+}
+.Footer .Footer__wrapper .Footer__delivery p:nth-of-type(2) {
+  margin: 33px 0 0 0;
+}
+.Footer .Footer__wrapper .Footer__delivery p {
+  margin: 15px 0 0 0;
+}
+
+.Header .Header__name p, .Section .Section__body .Section__description .Description__title p, .Section .Section__body .Section__description .Description__wrapper p:first-of-type, .Section .Section__most-popular .Most-popular__wrapper .Most-popular__title p, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__name, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product button, .Section .Section__quality .Quality__description p:first-of-type, .Section .Section__news .News__subscribe p:first-of-type, .Footer .Footer__wrapper .Footer__info .Info__name p {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+.Section .Section__body .Section__description .Description__wrapper p:last-of-type {
+  font-family: "Roboto-Light";
+}
+
+.Section .Section__body .Section__showcase .Section__price p, .Section .Section__body .Section__showcase .Section__size p, .Section .Section__most-popular .Most-popular__cards-wrapper .Most-popular__product .Product__price {
+  font-family: "Prata-Regular";
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Prata-Regular";
+  src: url("../fonts/Prata-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+* {
+  font-family: "Roboto-Regular";
+}
+
+p {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}

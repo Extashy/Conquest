@@ -1,0 +1,39 @@
+@import "_data";
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $bgc1;
+    height: 85px;
+
+    .Header__name {
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+        p {
+            @extend %playfair;
+            font-size: $fs12;
+            color: $fc1;
+        }
+    }
+
+    .Header__links {
+        display: flex;
+        gap: 4vh;
+        margin: auto;
+
+        a {
+            font-size: $fs14;
+            color: $fc1;
+            text-decoration: none;
+        }
+    }
+
+    .Header__icons {
+        display: flex;
+        gap: 1.5vh;
+        margin: auto;
+    }
+}

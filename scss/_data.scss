@@ -1,0 +1,30 @@
+$fs12: 12px;
+$fs14: 14px;
+$fs16: 16px;
+$fs30: 30px;
+$fs32: 32px;
+$fs45: 45px;
+
+$fc1: #555248;
+$fc2: #1B1A17;
+$fc3: #FFFFFF;
+$fc4: #444240;
+$fc5: rgba(255, 255, 255, 0.75);
+
+
+$bgc1: #FDFDFB;
+$bgc2: #444240;
+$bgc3: #FFFFFF;
+$bgc4: #D4B098;
+
+%playfair {
+    font-family: "PlayfairDisplay-Regular";
+}
+
+%robolight {
+    font-family: "Roboto-Light";
+}
+
+%prata {
+    font-family: "Prata-Regular";
+}

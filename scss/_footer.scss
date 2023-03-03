@@ -1,0 +1,120 @@
+@import "_data";
+
+.Footer {
+    display: flex;
+    align-items: center;
+    background-color: $bgc2;
+    height: 275px;
+
+    .Footer__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+        div:first-of-type {
+            margin-top: 0;
+        }    
+
+        p {
+            color: $fc3;
+            font-size: $fs14;
+            letter-spacing: 0.07em;
+        }
+
+        a {
+            text-decoration: none;
+            color: $fc5;
+            font-size: $fs12;
+            letter-spacing: 0;
+        }
+
+        .Footer__info {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding-right: 100px;
+
+            a:first-of-type {
+                margin-top: 23px;
+            }
+
+            a:last-of-type {
+                margin-top: 15px;
+            }
+
+            .Info__name {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                img {
+                    max-width: 25px;
+                    max-height: 25px;
+                }
+
+                p {
+                    @extend %playfair;
+                    font-weight: 700;
+                    letter-spacing: 0.14em;
+                    margin: 0;
+                }
+            }
+        }
+
+        .Footer__about {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding-right: 100px;
+
+            p:first-of-type {
+                margin: 0;
+            }
+
+            p:nth-of-type(2) {
+                margin: 33px 0 0 0;
+            }
+        
+            p {
+                margin: 15px 0 0 0;
+            }
+        }
+
+        .Footer__customers {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding-right: 100px;
+
+            p:first-of-type {
+                margin: 0;
+            }
+
+            p:nth-of-type(2) {
+                margin: 33px 0 0 0;
+            }
+        
+            p {
+                margin: 15px 0 0 0;
+            }
+        }
+
+        .Footer__delivery {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+            p:first-of-type {
+                margin: 0;
+            }
+
+            p:nth-of-type(2) {
+                margin: 33px 0 0 0;
+            }
+        
+            p {
+                margin: 15px 0 0 0;
+            }
+        }
+    }
+}
